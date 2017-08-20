@@ -9,6 +9,6 @@ var express = require('express'),
 app.use(express.static(path.join(__dirname, 'public')));
 
 // When the app is run we're going to listen on a port so we know when we have connections from clients
-app.listen(port, function () {
-  console.log('Example app listening on port 3000!')
+app.listen(port, function() {
+    console.log('Example app listening on port 3000!')
 });
